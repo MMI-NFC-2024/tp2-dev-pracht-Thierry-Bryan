@@ -13,6 +13,8 @@
     "@observablehq/plot": "^0.6.17",
     "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.13.5",
+    "dom": "^0.0.3",
+    "js": "^0.1.0",
     "jsdom": "^26.1.0",
     "tailwindcss": "^4.1.13"
   },
