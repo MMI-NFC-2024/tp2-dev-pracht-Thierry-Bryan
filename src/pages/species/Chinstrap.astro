@@ -3,11 +3,13 @@ import Layout from "../../layouts/Layout.astro";
 import penguins from "../../assets/penguins.json";
 import GraphicSpecies from "../../components/GraphicSpecies.astro";
 
-const penguinsAdelie = penguins.filter(({ species }) => species === "Adelie");
+const penguinsChinstrap = penguins.filter(
+  ({ species }) => species === "Chinstrap"
+);
 ---
 
 <Layout>
   <div>
-    <GraphicSpecies species="Adelie" />
+    <GraphicSpecies species="Chinstrap" />
   </div>
 </Layout>
